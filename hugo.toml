@@ -1,14 +1,14 @@
-baseURL = 'https:/vipverona.org/'
-languageCode = 'it-it'
-title = 'Vip Verona ODV'
+#baseURL = 'https:/vipverona.org/'
+languageCode = 'it'
+title = 'Vip Verona ODV - Associazione di clownterapia'
 theme = "ananke"
 enableEmoji = true
 
 
 [params]
   author = "Vip Verona ODV"
-  favicon = "logo-vip-vr.png"
-  site_logo = "logo-vip-vr.png"
+  favicon = "logo-vip-vr-ritaglio.png"
+  site_logo = "logo-vip-vr-ritaglio.png"
   description = "Vip Verona ODV"
   # choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
   background_color_class = "bg-light-red"
@@ -27,26 +27,38 @@ enableEmoji = true
 
 [menu]
 [[menu.main]]
-  identifier = 'home'
-  name = 'Home'
-  url = '/'
+  name = 'Chisiamo'
+  pageRef = '/chisiamo'
+  weight = 100
 [[menu.main]]
-  identifier = 'chisiamo'
-  name = 'Chi Siamo'
-  url = '/chisiamo/'
+  name = 'Clownterapia'
+  pageRef = '/cosafacciamo'
+  weight = 130
 [[menu.main]]
-  identifier = 'contatti'
+  name = 'Valori Vip'
+  pageRef = '/valori'
+  weight = 150
+[[menu.main]]
+  name = 'Come Riconoscerci'
+  pageRef = '/comericonoscerci'
+  weight = 170
+[[menu.main]]
+  name = 'Federazione'
+  pageRef = '/federazionevip'
+  weight = 200
+[[menu.main]]
   name = 'Contatti'
-  url = '/contatti/'
+  pageRef = '/contatti'
+  weight = 300
 [[menu.main]]
-  identifier = 'diventareclown'
-  name = 'Diventa Clown'
-  url = '/diventareclown/'
-[[menu.main]]
-  identifier = 'sostienici'
   name = 'Sostienici'
-  url = '/sostienici/'
+  pageRef = '/sostienici'
+  weight = 400
 [[menu.main]]
-  identifier = 'news'
+  name = 'Diventaclown'
+  pageRef = '/diventareclown'
+  weight = 500
+[[menu.main]]
   name = 'News'
-  url = '/news/'
+  pageRef = '/news'
+  weight = 600

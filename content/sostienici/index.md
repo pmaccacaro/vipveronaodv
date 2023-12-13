@@ -1,10 +1,9 @@
 +++
-title = 'Sostienici'
 date = 2023-12-13T01:06:32+01:00
 draft = false
 +++
 
-# Puoi sostenerci in diversi modi
+# :heart: Puoi sostenerci in diversi modi :heart:
 
 
 - ## Con una donazione sul nostro conto: 
