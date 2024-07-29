@@ -2,6 +2,10 @@
 
 Doc Template Ananke: https://themes.gohugo.io/themes/gohugo-theme-ananke/
 
+```bash
+git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
+```
+
 Check that you have checkout the ```themes/ananke```
 
 Folder is set as submodule in ``` .gitsubmodules ```
