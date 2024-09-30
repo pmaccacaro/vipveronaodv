@@ -8,7 +8,7 @@ draft = false
 
 - ## Con una donazione sul nostro conto: 
 
-    **IBAN:** *IT47NO326811702052893831710*
+    **IBAN:** *IT47N0326811702052893831710*
 
     **Istituto Bancario:** *BANCA SELLA SPA*
 
